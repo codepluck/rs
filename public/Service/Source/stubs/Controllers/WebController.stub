@@ -1,0 +1,11 @@
+
+<?php
+
+namespace Core\Foundation\Controllers{
+
+    use Core\Traits\ResponseTrait;
+    abstract class WebController extends Controller
+    {
+        use ResponseTrait;
+    }
+}

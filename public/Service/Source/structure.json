@@ -1,0 +1,139 @@
+{
+    "directories": {
+        "Actions": {
+            "files": [
+                "All{Module}Action.php",
+                "Create{Module}Action.php",
+                "Edit{Module}Action.php",
+                "Show{Module}Action.php",
+                "Store{Module}Action.php",
+                "Update{Module}Action.php",
+                "Delete{Module}Action.php"
+            ],
+            "stubs": [
+                "Action.stub"
+            ]
+        },
+        "Commands": {
+            "files": [
+                "Command.php"
+            ],
+            "stubs": [
+                "Command.stub"
+            ]
+        },
+        "Events": {
+            "files": [
+                "Event.php"
+            ],
+            "stubs": [
+                "Event.stub"
+            ]
+        },
+        "Exceptions": {
+            "files": [
+                "Exception.php",
+            ],
+            "stubs": [
+                "Exception.stub"
+            ]
+        },
+        "Factories": {
+            "files": [
+                "Factory.php"
+            ]
+        },
+        "Jobs": {
+            "files": [
+                "Job.php"
+            ]
+        },
+        "Listeners": {
+            "files": [
+                "Listener.php"
+            ]
+        },
+        "Mails": {
+            "files": [
+                "Mail.php"
+            ]
+        },
+        "Http": {
+            "files": []
+        },
+        "Controllers": {
+            "files": [
+                "All{Model}Controller.php",
+                "Create{Model}Controller.php",
+                "Edit{Model}Controller.php",
+                "Show{Model}Controller.php",
+                "Store{Model}Controller.php",
+                "Update{Model}Controller.php",
+                "Delete{Model}Controller.php"
+            ],
+            "stubs": [
+                "Controller.stub"
+            ]
+        },
+        "Middlewares": {
+            "files": [
+                "Middleware.php"
+            ]
+        },
+        "Models": {
+            "files": [
+                "Model.php"
+            ]
+        },
+        "Notifications": {
+            "files": [
+                "Notification.php"
+            ]
+        },
+        "Policies": {
+            "files": [
+                "Policy.php"
+            ]
+        },
+        "Providers": {
+            "files": [
+                "Provider.php"
+            ]
+        },
+        "Repositories": {
+            "files": [
+                "Repository.php"
+            ]
+        },
+        "Requests": {
+            "files": [
+                "Request.php"
+            ]
+        },
+        "Seeders": {
+            "files": [
+                "DatabaseSeeder.php"
+            ]
+        },
+        "Tasks": {
+            "files": [
+                "Task.php"
+            ]
+        },
+        "Tests": {
+            "files": [
+                "Test.php"
+            ]
+        },
+        "Transformers": {
+            "files": [
+                "Transformer.php"
+            ]
+        },
+        "Values": {
+            "files": [
+                "Value.php"
+            ]
+        }
+    }
+}

@@ -1,0 +1,23 @@
+<?php
+
+namespace Modules\{role}\{module}\Actions;
+
+use Modules\Abstracts\Actions\Action;
+use Modules\{role}\{module}\Policies\{model}Policy;
+use Modules\{role}\{module}\Repositories\{model}Repository;
+
+class {action}{module}Action extends Action
+{
+    public $repository;
+
+    public function __construct({model}Repository $repository)
+    {
+        $this->repository = $repository;
+    }
+
+    public function handle($request)
+    {
+        authorize('{action}', {model}Policy::class);
+        return $this->repository->all();
+    }
+}

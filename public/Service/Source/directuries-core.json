@@ -1,0 +1,75 @@
+
+{
+    "directories": {
+        "Actions": {
+            "files": ["Action.php", "SubActions.php"],
+            "stubs": ["Action.stub"]
+        },
+        "Commands": {
+            "files": ["Command.php"],
+            "stubs": ["Command.stub"]
+        },
+        "Events": {
+            "files": ["Event.php"],
+            "stubs": ["Event.stub"]
+        },
+        "Exceptions": {
+            "files": ["Exception.php"],
+            "stubs": ["Exception.stub"]
+        },
+        "Factories": {
+            "files": ["Factory.php"]
+        },
+        "Jobs": {
+            "files": ["Job.php"]
+        },
+        "Listeners": {
+            "files": ["Listener.php"]
+        },
+        "Mails": {
+            "files": ["Mail.php"]
+        },
+        "Http": {
+            "files": []
+        },
+        "Controllers": {
+            "files": ["ApiController.php", "WebController.php", "Controller.php"]
+        },
+        "Middlewares": {
+            "files": ["Middleware.php"]
+        },
+        "Models": {
+            "files": ["Model.php"]
+        },
+        "Notifications": {
+            "files": ["Notification.php"]
+        },
+        "Policies": {
+            "files": ["Policy.php"]
+        },
+        "Providers": {
+            "files": ["Provider.php"]
+        },
+        "Repositories": {
+            "files": ["Repository.php"]
+        },
+        "Requests": {
+            "files": ["Request.php"]
+        },
+        "Seeders": {
+            "files": ["DatabaseSeeder.php"]
+        },
+        "Tasks": {
+            "files": ["Task.php"]
+        },
+        "Tests": {
+            "files": ["Test.php"]
+        },
+        "Transformers": {
+            "files": ["Transformer.php"]
+        },
+        "Values": {
+            "files": ["Value.php"]
+        }
+    }
+}

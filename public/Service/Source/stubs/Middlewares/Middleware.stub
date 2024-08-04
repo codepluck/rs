@@ -1,0 +1,7 @@
+<?php
+
+namespace Core\Foundation\Middlewares;
+
+abstract class Middleware
+{
+}
