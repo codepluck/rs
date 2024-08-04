@@ -18,67 +18,13 @@ const AppProviders = ({ children }: { children: React.ReactNode }) => {
 
 
 
-    // if (location === "/") {
-    //     return (
-    //         <body className={cn("wizz-app ", jophinSans.className)}>
-    //             <ThemeProvider
-    //                 attribute="class"
-    //                 enableSystem={false}
-    //                 defaultTheme="light"
-    //             >
-    //                 <div className={cn("h-full  ")}>
-    //                     {children}
-    //                     <ReactToaster />
-    //                 </div>
-    //                 <Toaster />
-    //                 <SonnToaster />
-    //             </ThemeProvider>
-    //         </body>
-    //     );
-    // }
-    // return (
-    //     <>
-    //         <body className={cn("wizz-app ",)}>
-    //             <ThemeProvider
-    //                 attribute="class"
-    //                 enableSystem={false}
-    //                 defaultTheme="light"
-    //             >
-    //                 <div className={cn("h-full  ")}>
-    //                     {children}
-    //                     <ReactToaster />
-    //                 </div>
-    //                 <Toaster />
-    //                 <SonnToaster />
-    //             </ThemeProvider>
-    //         </body>
-    //     </>
-    // );
-
+  
     const [loading, setLoading] = useState(true);
     useEffect(() => {
         setLoading(false)
     }, []);
 
-
-    // if (location === "/") {
-    //     return (
-    //         <body suppressHydrationWarning={true} className={cn("wizz-app ", inter.className)}>
-    //             <ThemeProvider
-    //                 attribute="class"
-    //                 enableSystem={false}
-    //                 defaultTheme="light"
-    //             >
-    //                 <div className={cn("h-full  ")}>
-    //                     {children}
-    //                     <ReactToaster />
-    //                 </div>
-    //                 <Toaster />
-    //                 <SonnToaster />
-    //             </ThemeProvider>
-    //         </body>
-    //     );
-    // }
+    
     return (
         <body
             className={cn("wizz-app ",
